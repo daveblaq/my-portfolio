@@ -9,6 +9,12 @@ body {
 }
 
 /* Navbar section */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 nav {
   align-items: center;
   display: flex;
@@ -81,4 +87,8 @@ nav {
 
 .svg-image {
   margin: 8px;
+}
+
+ul li {
+  list-style-type: none;
 }
