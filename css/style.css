@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+/* Navbar section */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* End Navbar section */
+
+/* Welcome Message */
+
+.welcome {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  margin: 24px;
+  text-align: center;
+}
+
+/* End Welcome Message */
+
+/* Icon Menu */
+
+.icon-menu {
+  margin: 32px;
+  width: 24px;
+  height: 24px;
+}
+
+/* End Icon Menu */
+
+.hero-sec {
+  background-image: url('/img/header-illsutration-mobile.svg');
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+.hero-sec h1 {
+  color: #172b4d;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  padding-top: 64px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.hero-sec h1 span {
+  color: #36b37e;
+}
+
+.heading-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  order: 1;
+  margin: 28px 24px;
+}
+
+.icon-row {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.svg-image {
+  margin: 8px;
+}
+
+ul li {
+  list-style-type: none;
+}
