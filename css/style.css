@@ -157,12 +157,12 @@ ul li {
 }
 
 .card-tag {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
   margin-top: 16px;
   margin-bottom: 29px;
-  float: right;
-  left: -50%;
-  position: relative;
-  display: flex;
 }
 
 .tags {
@@ -174,8 +174,6 @@ ul li {
   background: #ebf0ee;
   border-radius: 4px;
   padding: 8px 12px;
-  left: 50%;
-  position: relative;
 }
 
 .card-tag .ruby {
@@ -411,4 +409,32 @@ ul li {
 .term {
   margin-top: -50px;
   margin-bottom: 24px;
+}
+
+.contact-me {
+  margin-top: 58px;
+  margin-bottom: 58px;
+}
+
+.contact-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-title h3 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  max-width: 327px;
+  text-align: center;
+}
+
+.contact-me > p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #42526e;
 }
