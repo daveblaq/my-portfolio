@@ -428,6 +428,7 @@ ul li {
   line-height: 52px;
   max-width: 327px;
   text-align: center;
+  font-family: 'Inter', sans-serif;
 }
 
 .contact-me > p {
@@ -437,6 +438,7 @@ ul li {
   line-height: 32px;
   text-align: center;
   color: #42526e;
+  font-family: 'Inter', sans-serif;
 }
 
 .contact-form {
@@ -447,27 +449,35 @@ ul li {
   height: 48px;
   padding: 16px;
   width: 100%;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 16px;
+  margin-bottom: 16px;
   border-radius: 4px;
-  border: 1px solid #D0D9D4;
+  border: 1px solid #d0d9d4;
+  font-family: 'Inter', sans-serif;
 }
 
 .input-email {
   height: 48px;
   padding: 16px;
   width: 100%;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 16px;
+  margin-bottom: 16px;
   border-radius: 4px;
-  border: 1px solid #D0D9D4;
+  border: 1px solid #d0d9d4;
+  font-family: 'Inter', sans-serif;
 }
 
 .input-text-area {
   padding: 16px;
   width: 100%;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 16px;
+  margin-bottom: 16px;
   border-radius: 4px;
-  border: 1px solid #D0D9D4;
+  border: 1px solid #d0d9d4;
+  font-family: 'Inter', sans-serif;
+}
+
+::placeholder {
+  color: #6b778c;
+  opacity: 1;
 }
