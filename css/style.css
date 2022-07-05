@@ -449,8 +449,8 @@ ul li {
   height: 48px;
   padding: 16px;
   width: 100%;
-  margin-top: 16px;
-  margin-bottom: 16px;
+  margin-top: 24px;
+  margin-bottom: 24px;
   border-radius: 4px;
   border: 1px solid #d0d9d4;
   font-family: 'Inter', sans-serif;
@@ -460,8 +460,8 @@ ul li {
   height: 48px;
   padding: 16px;
   width: 100%;
-  margin-top: 16px;
-  margin-bottom: 16px;
+  margin-top: 24px;
+  margin-bottom: 24px;
   border-radius: 4px;
   border: 1px solid #d0d9d4;
   font-family: 'Inter', sans-serif;
@@ -470,8 +470,8 @@ ul li {
 .input-text-area {
   padding: 16px;
   width: 100%;
-  margin-top: 16px;
-  margin-bottom: 16px;
+  margin-top: 24px;
+  margin-bottom: 24px;
   border-radius: 4px;
   border: 1px solid #d0d9d4;
   font-family: 'Inter', sans-serif;
@@ -480,4 +480,5 @@ ul li {
 ::placeholder {
   color: #6b778c;
   opacity: 1;
+  font-size: 15px;
 }
