@@ -244,9 +244,12 @@
         </div>
         <div class="contact-form">
             <form action="">
-                <input type="text" name="name" class="input-name" placeholder="Full Name" required>
-                <input type="email" name="email" class="inpt-email" placeholder="Email address" required>
-                <textarea name="" class="input-text-area" cols="30" rows="10"> Enter text here</textarea>
+                <input type="text" name="name" class="input-name" placeholder="Full Name" required maxlength="30">
+                <input type="email" name="email" class="input-email" placeholder="Email address" required>
+                <textarea name="" required class="input-text-area" cols="30" rows="10"> Enter text here</textarea>
+                <div class="btn">
+                    <button class="button" type="submit">See Project</button>
+                </div>
             </form>
         </div>
          <ul class="icon-row">
