@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Portfolio: mobile version
+# Portfolio: Desktop version
 
 ## Built With
 
