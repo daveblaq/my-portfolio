@@ -153,6 +153,8 @@ ul li {
   margin-top: 252px;
   background: #fff;
   border-radius: 8px;
+  display: flex;
+  flex-direction: column;
 }
 
 .card-details h3 {
@@ -165,11 +167,18 @@ ul li {
   padding-top: 16px;
 }
 
-.card-tag {
+/* .card-tag {
   display: flex;
   flex-direction: row;
   margin-top: 16px;
   margin-bottom: 29px;
+} */
+
+.card-tag { 
+float: left;
+margin-top: 15px;
+margin-bottom: 15px;
+
 }
 
 .tags {
